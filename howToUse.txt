@@ -1,0 +1,39 @@
+Run the program 
+java MyTextEditor
+
+
+
+
+The first entry is where your filepath will be displayed. 
+
+Open button
++++++++++++
+The open button will show a filechooser window, select your file and it content will appear in the text area.
+
+Save button
++++++++++++
+The save button will also show a filechooser window, but for saving. Write in a blank file and click to save, or open a file, modify it and click.
+
+Run cmd
++++++++++
+One of the best parts of this programs is the use of edit commands. Each line of your file is stored in a List, so you can manipulate them like you will do with a List element. You can:
+copy 
++++++++
+1 copyto 2 - copy line1 content to line2.
+
+swap
++++++
+1 swap 2 - line2 content is replaced by line1's, and line1 content is replaced by line2's.
+
+replace
+++++++++
+replace 1 by "replace_text" - replace line1 by a custom text. 
+===Due to splitting issues, you have to put an _ in place of blank spaces. These underscores are removed after the process.===
+
+remove
+++++++
+remove 1 - remove line1.
+
+
+End note
+List.remove() throws exceptions, an blank space will replace your command line when you finish running it. 
